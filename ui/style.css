@@ -20,3 +20,37 @@ body {
     height: 200px;
 }
 
+
+@keyframes  body{ 0% {background-color:red;}
+                50% {background-color:green;}
+                70% {background-color:yellow;}
+                100%{background-color:blue;} 
+            
+                } 
+h1 { border-width:5px;
+     border-style:solid; 
+     Border-color:red;   
+ padding:2px;
+    color:blue;
+}
+nav ol { border-style:solid;
+       border-color:skyblue;
+       padding:10px;
+       } 
+ nav ol li { display:inline;
+              background-color:yellow;
+              }
+nav ol li a { border-style:solid;
+              font-weight:bold;
+            
+              padding:5px;
+              border-color:green;}      
+
+h2 { border-style:solid;
+     }                       
+aside { border-style: solid;
+       font-style:inherit;
+        font-weight:bold;}
+   label { border-style:solid;
+         border-color:orange;
+         }
