@@ -4,7 +4,7 @@ body {
     margin-top: 75px;
     background-color:yellow;
     animation-name:colorchange;
-    animation-duration:5s;
+    animation-duration:3s;
 }
 
 .center {
@@ -54,6 +54,6 @@ h2 { border-style:solid;
 aside { border-style: solid;
        font-style:inherit;
         font-weight:bold;}
-   label { border-style:solid;
+   form { border-style:solid;
          border-color:orange;
          }
