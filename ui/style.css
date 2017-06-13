@@ -3,6 +3,8 @@ body {
     background-color: lightgrey;
     margin-top: 75px;
     background-color:yellow;
+    animation-name:colorchange;
+    animation-duration:5s;
 }
 
 .center {
@@ -22,10 +24,10 @@ body {
 }
 
 
-@keyframes  body{ 0% {background-color:red;}
+@keyframes colorchange{ 0% {background-color:red;}
                 50% {background-color:green;}
                 70% {background-color:yellow;}
-                100%{background-color:blue;} 
+                100%{background-color:skyblue;} 
             
                 } 
 h1 { border-width:5px;
